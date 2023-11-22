@@ -245,7 +245,7 @@ sensitive data they contain; 2) data poisoning, which compromises models
 through data tampering; and 3) adversarial attacks, which deceive the
 model to make incorrect or unwanted predictions
 
-### Model Theft
+### Model Theft {#sec-model-theft}
 
 Model theft occurs when an attacker gains unauthorized access to a
 deployed ML model. The concern here is the theft of the model's
@@ -734,8 +734,8 @@ an accelerator card has a vulnerability akin to Meltdown or Spectre, it
 could potentially leak the data it processes. An attacker could exploit
 this flaw not just to siphon off data but also to gain insights into the
 ML model\'s workings, including potentially reverse-engineering the
-model itself (thus, going back to the issue of \[model
-theft\](@sec-model_theft).
+model itself (thus, going back to the issue of [model
+theft](#sec-model-theft).
 
 A real-world scenario where this could be devastating would be in the
 healthcare industry. Here, ML systems routinely process highly sensitive
